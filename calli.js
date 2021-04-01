@@ -41,13 +41,13 @@ const prefix = "c!";
 const cooldown = new Set();
 const cdtime = 5;
 ///////////////////////////////////////////////////////////////////////////////
-const callicolor = "";
-const calliImage = "";
-const callitrue = "";
-const callifalse = "";
-const calliwarn = "";
+const callicolor = "blue";
+const calliImage = "https://cdn.discordapp.com/attachments/728762872267669634/827088414809128990/static1.png";
+const callitrue = "true";
+const callifalse = "false";
+const calliwarn = "warn";
 ///////////////////////////////////////////////////////////////////////////////
-calli.login("");
+calli.login("ODI2NTYxNjU3OTc4MzU1NzU0.YGORiA.FwR_6POpMmnU4Ohi3iYdxAPnQtc");
 ///////////////////////////////////////////////////////////////////////////////
 calli.on("ready", () => {
   console.log(`${calli.user.tag}`);
